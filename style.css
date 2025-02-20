@@ -250,26 +250,37 @@ body {
 
 /* Contact Section */
 #contact {
-    background: linear-gradient(135deg, #000428, #004e92); /* Adjust background if needed */
+    background: linear-gradient(135deg, #000428, #004e92);
     color: white;
     text-align: center;
     padding: 50px;
 }
 
-/* Contact Links */
-#contact a {
-    color: #00ffea; /* Bright neon blue for better contrast */
+/* Contact Links Container */
+.contact-links {
+    display: flex;
+    justify-content: center; /* Center align */
+    gap: 30px; /* Spacing between links */
+    margin-top: 20px;
+}
+
+/* Individual Links */
+.contact-link {
+    color: #00ffea;
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.3s;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
     text-shadow: 0px 0px 10px #00ffea;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px #00ffea;
 }
 
 /* Hover Effect */
-#contact a:hover {
-    color: #ff00ff; /* Glowing pink on hover */
+.contact-link:hover {
+    color: #ff00ff;
     text-shadow: 0px 0px 15px #ff00ff;
+    box-shadow: 0 0 15px #ff00ff;
 }
-
-
