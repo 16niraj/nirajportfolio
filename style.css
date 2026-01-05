@@ -397,7 +397,7 @@ body {
     .icon-circle {
       width: 60px;
       height: 60px;
-      background: white;
+      background: #0d6efd;
       color: #fff;
       border-radius: 50%;
       display: flex;
