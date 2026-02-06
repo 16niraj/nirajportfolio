@@ -739,6 +739,11 @@ iframe {
 
 
 @media (max-width: 900px) {
+    .navbar {
+        justify-content: flex-end; 
+        padding-right: 2rem; /* Adds a little breathing room from the edge */
+    }
+
     .hamburger {
         display: block; 
         z-index: 1001; 
@@ -765,8 +770,9 @@ iframe {
         text-align: center;
         transition: 0.3s; 
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-        padding: 2rem 0;
+        padding: 1rem 0;
         z-index: 999;
+        gap: 0;
     }
 
     .nav-list.active {
@@ -774,6 +780,6 @@ iframe {
     }
 
     .nav-list li {
-        margin: 2.5rem 0; 
+        margin: 1.2rem 0; 
     }
 }
