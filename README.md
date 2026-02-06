@@ -12,6 +12,7 @@ This project is a **personal portfolio website** created to showcase my skills, 
 * About Me section
 * Skills and Technologies section
 * Projects showcase
+* CV
 * Contact section
 * Easy navigation and user-friendly layout
 
@@ -22,7 +23,6 @@ This project is a **personal portfolio website** created to showcase my skills, 
 * **HTML5**
 * **CSS3**
 * **JavaScript**
-* **Bootstrap**
 ---
 
 ## 📂 Project Structure
@@ -32,7 +32,6 @@ Portfolio-Website/
 │
 ├── index.html        # Main webpage
 ├── style.css         # Styling file
-├── script.js         # JavaScript for interactivity
 ├── about.html        # About me
 └── README.md         # Project documentation
 ```
