@@ -1,12 +1,14 @@
 # Personal Portfolio Website
 
-## 📌 Project Overview
+* Link to website: https://16niraj.github.io/nirajportfolio/
+
+## Project Overview
 
 This project is a **personal portfolio website** created to showcase my skills, projects, and basic professional information. The website serves as an online resume and provides an overview of my technical background, projects, and contact details.
 
 ---
 
-## 🎯 Features
+## Features
 
 * Responsive and clean design
 * About Me section
@@ -18,14 +20,14 @@ This project is a **personal portfolio website** created to showcase my skills, 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **HTML5**
 * **CSS3**
 * **JavaScript**
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Portfolio-Website/
@@ -38,7 +40,7 @@ Portfolio-Website/
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 1. Download or clone the repository.
 2. Open `index.html` in any modern web browser.
@@ -46,7 +48,7 @@ Portfolio-Website/
 
 ---
 
-## 🧠 Purpose of the Project
+## Purpose of the Project
 
 * To practice **frontend web development**
 * To create a personal brand and online presence
@@ -55,7 +57,7 @@ Portfolio-Website/
 
 ---
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 * Add dark/light mode
 * Improve animations and transitions
