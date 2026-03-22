@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-* Link to website: https://16niraj.github.io/nirajportfolio/
+* Link to Website: https://16niraj.github.io/nirajportfolio/
 
 ## Project Overview
 
@@ -33,6 +33,7 @@ This project is a **personal portfolio website** created to showcase my skills, 
 Portfolio-Website/
 │
 ├── index.html        # Main webpage
+├── project.html        # Projects
 ├── style.css         # Styling file
 ├── about.html        # About me
 └── README.md         # Project documentation
