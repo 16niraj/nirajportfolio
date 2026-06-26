@@ -516,6 +516,64 @@ ul {
     background: rgba(15, 23, 42, 0.6);
 }
 
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.metric-card {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: #1e293b; /* Matches your dark cards */
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-color: #38bdf8;
+}
+
+.metric-card .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(56, 189, 248, 0.1); /* Light blue tint */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.metric-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.metric-info h4 {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.metric-info .stat-value {
+    color: #f8fafc;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .metrics-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 @media (max-width: 900px) {
     
